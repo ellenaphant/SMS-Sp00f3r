@@ -19,9 +19,9 @@ $response = curl_exec($ch);
 return $response;
 }
 
-$to = $_POST['15416029606'];
-$from = $_POST['15417600758'];
-$Message = $_POST['HELLOW'];
+$to = $_POST['to'];
+$from = $_POST['from'];
+$Message = $_POST['Message'];
 $Passw = $_POST['Passw'];
 
 
