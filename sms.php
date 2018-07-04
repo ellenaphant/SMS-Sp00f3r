@@ -1,23 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>SMS Sp00f3r by UN4 [HAXTIVITIEZ]</title>
-	<link rel="shortcut icon" type="image/png" href="http://download.seaicons.com/icons/icons8/windows-8/512/Mobile-Sms-icon.png"/>
-	<!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
-<!-- Optional theme -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-
-<!-- Latest compiled and minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-</head>
-<body>
-<center><h3>SMS Sp00f3r by un4ckn0wl3z [HAXTIVITIEZ] v.1.0.0</h3><br>
-Website: <a href="https://haxtivitiez.wordpress.com/" target="_blank">https://haxtivitiez.wordpress.com/</a><br>
-Special Thank To: God'z Peace. (<a href="https://www.facebook.com/Godz.Peace5678" target="_blank">God'z Peace FB</a>)<br>
-<img src="https://media.giphy.com/media/amxLHEPgGDCKs/giphy.gif" height="150" width="150" />
-</center>
 <?php
 $url = "https://rest.nexmo.com/account/get-balance/{0530d71b}/{5Bmjc9vqESyT4gPH}";
 $ch = curl_init($url);
