@@ -3,8 +3,8 @@
 function send_sms($to,$from,$msg_sms){
 	$url = 'https://rest.nexmo.com/sms/json?' . http_build_query(
     [
-      'api_key' =>  '{api_key}',
-      'api_secret' => '{api_secret}',
+      'api_key' =>  '{0530d71b}',
+      'api_secret' => '{5Bmjc9vqESyT4gPH}',
       'to' => $to,
       'from' => $from,
       'text' => $msg_sms,
@@ -19,9 +19,9 @@ $response = curl_exec($ch);
 return $response;
 }
 
-$to = $_POST['to'];
-$from = $_POST['from'];
-$Message = $_POST['Message'];
+$to = $_POST['15416029606'];
+$from = $_POST['15417600758'];
+$Message = $_POST['HELLOW'];
 $Passw = $_POST['Passw'];
 
 
@@ -40,7 +40,7 @@ echo '
 
 
 
-if ($Passw == "yourpassword"){
+if ($Passw == "Cermak146325"){
 	echo "<html>";
 	echo "<b>From: ".$from."</b>"."<br>";
 	echo "<b>To: ".$to."</b>"."<br>";
