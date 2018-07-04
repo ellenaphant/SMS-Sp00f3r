@@ -19,7 +19,7 @@ Special Thank To: God'z Peace. (<a href="https://www.facebook.com/Godz.Peace5678
 <img src="https://media.giphy.com/media/amxLHEPgGDCKs/giphy.gif" height="150" width="150" />
 </center>
 <?php
-$url = "https://rest.nexmo.com/account/get-balance/{api_key}/{api_secret}";
+$url = "https://rest.nexmo.com/account/get-balance/{0530d71b}/{5Bmjc9vqESyT4gPH}";
 $ch = curl_init($url);
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 $response = curl_exec($ch);
